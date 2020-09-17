@@ -1,2 +1,5 @@
-a = 5
-print(a)
+def string(s):
+    for i in s:
+        print(i)
+
+string("paul")
