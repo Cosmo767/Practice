@@ -56,7 +56,8 @@ def test_is_unique(my_input, expected_output):
     actual_output = is_unique(my_input)
     successful_test = actual_output == expected_output
     success_notification = "PASS" if successful_test else "FAIL"
-    output_message = "{}: \n INPUT: {}\n OUTPUT: \n\t expected: {} \n\t actual: {}".format(success_notification, my_input, expected_output, actual_output)
+    output_message = ("{}: \n INPUT: {}\n OUTPUT: \n\t expected: {} \n\t actual: {}".
+     format(success_notification, my_input, expected_output, actual_output))
     print(output_message)     
 
 
