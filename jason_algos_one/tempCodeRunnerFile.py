@@ -1,1 +1,2 @@
-char >= "a" and char <= "z"
+total_age += current_age
+            count += 1 
