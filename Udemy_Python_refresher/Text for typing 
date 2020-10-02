@@ -10,6 +10,9 @@ Push a local branch for the first time:
 git push --set-upstream origin <branch>
 git push
 
+feature_x
+
+
 Switching Branches
 First, you'll want to know what branches are available in your working directory:
 
