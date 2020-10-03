@@ -11,7 +11,7 @@ def is_unique(my_list):
     error = 0
     for i in range(l):            		#O(n^2)
         for j in range(i+1,l+1):
-           
+
             if my_list[i] == my_list[j]:
                 error = error + 1
                 break
@@ -49,14 +49,15 @@ def is_unique(my_list): #['a', 'a', 4 ] {'a':2, 4:1} , my_dict['a']
         else: #if the item is not already in my_dict as a key
             my_dict[item] = 1
     return True # this only runs if no duplicate is found 
-  
+
 # test helper function
 def test_is_unique(my_input, expected_output):
     
     actual_output = is_unique(my_input)
     successful_test = actual_output == expected_output
     success_notification = "PASS" if successful_test else "FAIL"
-    output_message = "{}: \n INPUT: {}\n OUTPUT: \n\t expected: {} \n\t actual: {}".format(success_notification, my_input, expected_output, actual_output)
+    output_message = ("{}: \n INPUT: {}\n OUTPUT: \n\t expected: {} \n\t actual: {}".
+    format(success_notification, my_input, expected_output, actual_output))
     print(output_message)     
 
 
