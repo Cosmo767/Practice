@@ -29,6 +29,9 @@ def findDisappearedNumbers(nums):
     diff_set = complete_set.difference(nums_set)
     
     return list(diff_set)
+    '''
+    Below is an iterative approuch
+    '''
     # set_nums = set(nums)
     # n = len(nums)
     # output = []
